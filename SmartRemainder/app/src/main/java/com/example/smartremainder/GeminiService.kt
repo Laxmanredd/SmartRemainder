@@ -7,7 +7,7 @@ import org.json.JSONObject
 import java.io.IOException
 
 object GeminiService {
-    private const val API_KEY = "AIzaSyDPrY3CouLIk6lOtzX8oIP0HxtMQ7LARRs"  // Replace with actual key
+    private const val API_KEY = "RePlace your Api Key"  // Replace with actual key
     private const val URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=$API_KEY"
 
     fun sendMessage(message: String, callback: (String) -> Unit) {
