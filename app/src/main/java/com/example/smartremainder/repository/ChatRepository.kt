@@ -22,7 +22,7 @@ class ChatRepository {
 
             val response = geminiApi.generateContent(
                 //Put your API key here
-                apiKey = "AIzaSyDKBSAGexERUUJYhThSJgD-4wM0-ouVQxo",
+                apiKey = "Replace with API Key",
                 request = request
             )
 
